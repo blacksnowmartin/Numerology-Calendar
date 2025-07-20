@@ -1,1 +1,16 @@
+Follow SDLC to draft project in 3 hours.
+Use the Gregorian calendar style but now have an addition of the feature of numerology date as a superscript on each date.
 
+The formula is still the same one as follows:
+For example 
+for 
+8th June 2003 
+will be as follows 
+8+6+2+0+0+3 = 19
+Refined to get the one digit as
+1+9 = 10
+1+0=
+1
+So on the calendar of June the 8th date will have the superscript of 1 on it and other days will apply the formula to have the same.
+
+Only special cases will be for numerologies that add upto 11 22 and 33 since those are master numbers.
