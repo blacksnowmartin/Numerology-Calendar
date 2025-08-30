@@ -14,3 +14,5 @@ Refined to get the one digit as
 So on the calendar of June the 8th date will have the superscript of 1 on it and other days will apply the formula to have the same.
 
 Only special cases will be for numerologies that add upto 11 22 and 33 since those are master numbers.
+
+By Blacksnow Martin 2025 ©
