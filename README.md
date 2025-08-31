@@ -21,7 +21,7 @@ Numerology-Calendar is an intuitive calendar application inspired by ancient alc
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/Numerology-Calendar.git
+   git clone https://github.com/blacksnowmartin/Numerology-Calendar.git
    cd Numerology-Calendar
    ```
 
