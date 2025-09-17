@@ -8,9 +8,9 @@
 - **Automatic Numerology Calculations**: Each date shows its numerological value as a superscript
 - **Master Number Recognition**: Special handling for master numbers (11, 22, 33)
 - **Daily Guidance**: Personalized numerological insights and suggestions
-- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux
+- **Cross-Platform Compatibility**: Works on any device with a modern web browser
 - **Modern Web Interface**: Built with HTML5, CSS3, and JavaScript
-- **Lightweight Launcher**: Simple C++ executable opens the calendar in your browser
+- **No Installation Required**: Pure web application that runs directly in your browser
 
 ## 🔢 Numerology Formula
 
@@ -29,11 +29,10 @@ For **June 8, 2003**:
 
 So June 8th displays as **8¹** on the calendar.
 
-## 🚀 Installation & Setup
+## 🚀 Getting Started
 
 ### Prerequisites
-- C++ compiler (g++, clang, or MSVC)
-- A modern web browser
+- A modern web browser (Chrome, Firefox, Safari, Edge)
 - Git (for cloning the repository)
 
 ### Quick Start
@@ -44,34 +43,22 @@ So June 8th displays as **8¹** on the calendar.
    cd Numerology-Calendar
    ```
 
-2. **Build the launcher:**
+2. **Open the application:**
+   Simply open `index.html` in your web browser:
    
-   **Windows (MinGW/GCC):**
-   ```bash
-   g++ python-gui.cpp -o mystichron.exe -mwindows
-   ```
+   **Option 1: Double-click** the `index.html` file in your file explorer
    
-   **Linux/macOS:**
-   ```bash
-   g++ python-gui.cpp -o mystichron
-   ```
+   **Option 2: Drag and drop** the `index.html` file into your browser window
+   
+   **Option 3: Use your browser's File menu:**
+   - Open your web browser
+   - Go to File → Open File
+   - Navigate to and select `index.html`
 
-3. **Run the application:**
-   
-   **Windows:**
-   ```bash
-   mystichron.exe
-   ```
-   
-   **Linux/macOS:**
-   ```bash
-   ./mystichron
-   ```
+3. **Start exploring!** The calendar will load immediately with today's numerology guidance.
 
-The application will automatically open in your default web browser.
-
-### Alternative: Direct Browser Access
-You can also open `index.html` directly in any modern web browser without building the launcher.
+### No Installation Required
+This is a pure web application that runs entirely in your browser - no server, no compilation, no installation needed!
 
 ## 📱 Usage
 
@@ -98,27 +85,30 @@ You can also open `index.html` directly in any modern web browser without buildi
 
 ```
 Numerology-Calendar/
-├── index.html          # Main web application
-├── python-gui.cpp      # Cross-platform launcher
+├── index.html          # Complete web application
 ├── README.md           # Project documentation
-├── Desc.txt            # Project requirements
+├── Desc.txt            # Original project requirements
 └── .git/               # Git repository
 ```
 
 ### File Descriptions
 
-- **`index.html`**: Complete web application with HTML, CSS, and JavaScript
-  - Responsive calendar grid layout
-  - Numerology calculation algorithms
-  - Interactive modal system
-  - Mystical styling and animations
-
-- **`python-gui.cpp`**: Cross-platform launcher executable
-  - Detects operating system
-  - Opens `index.html` in default browser
-  - Handles Windows, macOS, and Linux compatibility
+- **`index.html`**: Complete standalone web application (351 lines)
+  - **HTML Structure**: Semantic markup for calendar layout
+  - **CSS Styling**: Mystical theme with gradients, animations, and responsive design
+  - **JavaScript Logic**: Calendar generation, numerology calculations, and interactive features
+  - **Features**: 
+    - Responsive calendar grid layout
+    - Numerology calculation algorithms with master number support
+    - Interactive modal system for daily guidance
+    - Smooth animations and mystical styling
+    - Cross-browser compatibility
 
 - **`Desc.txt`**: Original project specification and requirements
+  - Contains the initial project brief
+  - Defines the numerology calculation formula
+  - Specifies master number handling (11, 22, 33)
+  - Includes author attribution
 
 ## 🎨 Design Features
 
@@ -134,7 +124,7 @@ Numerology-Calendar/
 - **HTML5**: Semantic markup and structure
 - **CSS3**: Advanced styling, animations, and responsive design
 - **JavaScript**: Calendar generation and numerology calculations
-- **C++**: Cross-platform launcher application
+- **Google Fonts**: Cinzel font for mystical typography
 
 ### Browser Compatibility
 - Chrome 60+
@@ -143,9 +133,10 @@ Numerology-Calendar/
 - Edge 79+
 
 ### Performance
-- Lightweight application (< 10KB total)
+- Lightweight application (~9.3KB total)
 - Fast loading and smooth interactions
-- No external dependencies (except Google Fonts)
+- Minimal external dependencies (only Google Fonts)
+- Pure client-side application with no server requirements
 
 ## 🤝 Contributing
 
